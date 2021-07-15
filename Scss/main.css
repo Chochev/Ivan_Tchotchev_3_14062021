@@ -4,6 +4,7 @@
   display: flex;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -11,15 +12,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   background-color: white;
 }
 
 .mainTitle img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .mapLocation {
@@ -43,7 +42,7 @@
   font-size: 1.3rem;
 }
 
-.mapLocation h2 {
+.mapLocation p {
   font-weight: 700;
   font-size: 1.35em;
 }
