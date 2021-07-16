@@ -1,3 +1,16 @@
-section .pubContainer{
-    background-color: aqua;
+@import "elementStyles";
+@import "boxStyles";
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+  
+
+
+}
+.pubContainer {
+    @include boxStyles;
+    
+}
+.bigBtn{
+ @include btn;
 }

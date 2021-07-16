@@ -2,10 +2,9 @@
 @import "location";
 @import "functContainer";
 @import "pubContainer";
+@import "elementStyles";
 body {
   margin: 0px;
   padding: 0px;
-}
-.mainContainer{
-    margin-left: 15px;
+  width: 100%;
 }

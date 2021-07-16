@@ -1,28 +1,19 @@
-@mixin funcBoxes {
-  display: flex;
-  width: 80%;
-  border: 1px solid red;
-  align-items: center;
- justify-content: center;
- margin-bottom: 2rem;
- margin-right: 15px;
- border-radius: 0.9rem;
-}
+@import "boxStyles";
+@import "funcBox";
+
 .functionalityContainer {
   display: flex;
   flex-direction: column;
 }
 .funcBoxes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ @include boxStyles;
 }
 .funcBox1 {
-  @include funcBoxes;
+  @include funcBox;
 }
 .funcBox2 {
-  @include funcBoxes;
+  @include funcBox;
 }
 .funcBox3 {
-  @include funcBoxes;
+  @include funcBox;
 }
