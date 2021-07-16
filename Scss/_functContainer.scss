@@ -1,12 +1,9 @@
-@import "boxStyles";
-@import "funcBox";
 
 .functionalityContainer {
-  display: flex;
-  flex-direction: column;
+  @include boxStyles;
 }
 .funcBoxes {
- @include boxStyles;
+  display: flex;
 }
 .funcBox1 {
   @include funcBox;

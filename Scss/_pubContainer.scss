@@ -1,16 +1,11 @@
-@import "elementStyles";
-@import "boxStyles";
-.mainContainer{
-    display: flex;
-    flex-direction: column;
-  
 
-
+.mainContainer {
+  display: flex;
+  flex-direction: column;
 }
 .pubContainer {
-    @include boxStyles;
-    
+  @include boxStyles;
 }
-.bigBtn{
- @include btn;
+.bigBtn {
+  @include btn;
 }

@@ -1,28 +1,28 @@
 @mixin btn {
-    display: flex;
-    margin: 0.5rem 1.3rem 2rem 0px;
+  display: flex;
+  margin: 0.5rem 1.3rem 2rem 0px;
   padding: 15px;
   font-size: 25px;
   border-radius: 30px;
-  background: linear-gradient(to top, #9356DC, #FF79DA);
+  background: linear-gradient(to top, #9356dc, #ff79da);
   color: white;
   border-style: none;
 }
-@mixin boxStyles{
-    padding-left: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    background-color:#F6F6F6;
-    align-items: center;
-    justify-content: center;
-    }
+@mixin boxStyles {
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  align-items: center;
+  justify-content: center;
+}
 @mixin funcBox {
-    display: flex;
-    width: 80%;
-    border: 1px solid blue;
-    align-items: center;
-   justify-content: center;
-   margin-bottom: 2rem;
-   margin-right: 15px;
-   border-radius: 0.9rem;
-  }
+  display: flex;
+  width: 80%;
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 15px;
+  border-radius: 0.9rem;
+}
