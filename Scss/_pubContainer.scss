@@ -1,11 +1,11 @@
 @import "./elementStyles/mixin";
 .mainContainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .pubContainer {
-    @include boxStyles;
-  }
-  .bigBtn {
-    @include btn;
-  }
+  display: flex;
+  flex-direction: column;
+}
+.pubContainer {
+  @include boxStyles;
+}
+.bigBtn {
+  @include btn;
+}

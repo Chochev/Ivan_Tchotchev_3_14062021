@@ -1,9 +1,3 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-
 .mainTitle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,28 +47,164 @@ body {
   font-size: 1.35em;
 }
 
-.mapLocation {
+.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pubContainer {
+  padding-left: 1.5rem;
+  margin-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f6f6f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bigBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5rem 1.3rem 2rem 0px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  color: white;
+  border-style: none;
+}
+
+.functionalityContainer {
+  padding-left: 1.5rem;
+  margin-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f6f6f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.funcBoxes {
+  padding-left: 1.5rem;
+  margin-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f6f6f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.funcBox1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: #e5e5e5;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-color: #f6f6f6;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 1.7rem;
+  border-radius: 1.3rem;
 }
 
-.mapLocation i {
-  margin-right: 0.9rem;
-  font-size: 1.3rem;
+.funcBox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #f6f6f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 1.7rem;
+  border-radius: 1.3rem;
 }
 
-.mapLocation p {
-  font-weight: 700;
-  font-size: 1.35em;
+.funcBox3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #f6f6f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 1.7rem;
+  border-radius: 1.3rem;
+}
+
+.restaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 0 1rem;
+}
+
+.restauCard {
+  margin: 0px 1rem 1rem 0px;
+}
+
+.restauCard img {
+  width: 100%;
+  height: 12rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
