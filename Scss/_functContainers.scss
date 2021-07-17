@@ -1,0 +1,26 @@
+@import "./elementStyles/mixin";
+.functionalityContainer {
+  @include boxStyles {
+    background-color: white;
+  }
+}
+.funcBoxes {
+  @include boxStyles {
+    background-color: white;
+  }
+}
+.funcBox1 {
+  @include funcBox;
+}
+.funcBox2 {
+  @include funcBox;
+}
+.funcBox3 {
+  @include funcBox;
+}
+.funcBoxNum {
+  background: #9356dc;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
