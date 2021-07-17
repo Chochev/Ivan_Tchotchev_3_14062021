@@ -1,11 +1,12 @@
-
+ @import "./elementStyles/mixins";
 .mainContainer {
-  display: flex;
-  flex-direction: column;
-}
-.pubContainer {
-  @include boxStyles;
-}
-.bigBtn {
-  @include btn;
-}
+    display: flex;
+    flex-direction: column;
+  }
+  .pubContainer {
+    @include boxStyles;
+  }
+  .bigBtn {
+    @include btn;
+  }
+  
