@@ -80,14 +80,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0.5rem 1.3rem 2rem 0px;
-  padding: 15px;
+  margin: 0.5rem 1.5rem 2rem 0px;
+  padding: 16px;
   font-size: 20px;
   border-radius: 30px;
   background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   background: linear-gradient(to top, #9356dc, #ff79da);
   color: white;
   border-style: none;
+}
+
+.pubContainer h1, p {
+  padding-right: 10px;
 }
 
 .functionalityContainer {
@@ -130,6 +134,10 @@
   background-color: white;
 }
 
+.funcBoxes i {
+  margin-right: 10px;
+}
+
 .funcBox1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,12 +147,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 2rem;
-  margin-right: 1.7rem;
+  margin: 1rem 1rem 1rem 0rem;
+  padding-right: 1rem;
   border-radius: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .funcBox2 {
@@ -156,12 +162,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 2rem;
-  margin-right: 1.7rem;
+  margin: 1rem 1rem 1rem 0rem;
+  padding-right: 1rem;
   border-radius: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .funcBox3 {
@@ -173,27 +177,48 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 1rem 1rem 1rem 0rem;
+  padding-right: 1rem;
+  border-radius: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.funcBoxNum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: blue;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 2rem;
-  margin-right: 1.7rem;
-  border-radius: 1.3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.funcBoxText {
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .restaurants {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #f6f6f6;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 0 0 1rem;
 }
 
 .restauCard {
-  margin: 0px 1rem 1rem 0px;
+  margin: 0px 1rem 1rem 1rem;
 }
 
 .restauCard img {
@@ -201,6 +226,54 @@
   height: 12rem;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardText {
+  text-decoration: none;
+}
+
+.restaurants p, a:link, h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.restaurants h2 {
+  margin-left: 1rem;
+}
+
+.mainFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #000000;
+  color: white;
+  padding: 1rem;
+}
+
+.footerLogo {
+  margin-left: 0px;
+}
+
+.footerInfo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerInfo i {
+  margin-right: 10px;
 }
 
 body {

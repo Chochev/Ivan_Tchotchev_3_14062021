@@ -10,6 +10,9 @@
     background-color: white;
   
 }
+.funcBoxes i{
+    margin-right: 10px
+}
 .funcBox1 {
   @include funcBox;
 }
@@ -19,3 +22,20 @@
 .funcBox3 {
   @include funcBox;
 }
+.funcBoxNum{
+    display: flex;
+    background: blue;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.funcBoxText{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
