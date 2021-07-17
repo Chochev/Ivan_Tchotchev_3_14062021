@@ -1,14 +1,16 @@
+@import "./elementStyles/mixin";
 .mainTitle {
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  background-color: white;
+    @include title;
+//   display: flex;
+//   position: -webkit-sticky;
+//   position: sticky;
+//   top: 0;
+//   width: 100%;
+//   justify-content: center;
+//   align-items: center;
+//   padding-top: 1.5rem;
+//   padding-bottom: 1.5rem;
+//   background-color: white;
 
   img {
     display: block;

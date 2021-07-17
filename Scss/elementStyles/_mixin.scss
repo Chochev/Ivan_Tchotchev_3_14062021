@@ -1,3 +1,16 @@
+@mixin title {
+    display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+
+}
 @mixin btn {
   display: flex;
   margin: 0.5rem 1.5rem 2rem 0px;
@@ -9,8 +22,6 @@
   border-style: none;
 }
 @mixin boxStyles {
-  padding-left: 1.5rem;
-  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;

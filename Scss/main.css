@@ -58,8 +58,6 @@
 }
 
 .pubContainer {
-  padding-left: 1.5rem;
-  margin-right: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,11 +90,10 @@
 
 .pubContainer h1, p {
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 .functionalityContainer {
-  padding-left: 1.5rem;
-  margin-right: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,8 +112,6 @@
 }
 
 .funcBoxes {
-  padding-left: 1.5rem;
-  margin-right: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -218,7 +213,7 @@
 }
 
 .restauCard {
-  margin: 0px 1rem 1rem 1rem;
+  padding: 0px 1rem 1rem 1rem;
 }
 
 .restauCard img {
@@ -240,7 +235,7 @@
 }
 
 .restaurants h2 {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .mainFooter {
@@ -274,6 +269,10 @@
 
 .footerInfo i {
   margin-right: 10px;
+}
+
+.pageTitle {
+  width: 100%;
 }
 
 body {
