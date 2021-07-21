@@ -1,0 +1,11 @@
+@import "./elementStyles/mixin";
+body{
+    background-color: yellowgreen;
+}
+.headerBox{
+    display: flex
+}
+  .pageTitle{
+        @include title;
+    }
+    

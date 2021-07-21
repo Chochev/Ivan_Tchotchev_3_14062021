@@ -4,10 +4,12 @@
 @import "functContainers";
 @import "restau";
 @import "footer";
+@import "./pagesStyles/pageStyle";
 
 
 body {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  font-family: Roboto, sans-serif;
 }
