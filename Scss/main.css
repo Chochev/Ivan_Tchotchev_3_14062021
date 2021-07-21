@@ -2,10 +2,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   width: 100%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -182,7 +183,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: blue;
+  background: #9356dc;
+  color: white;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -269,10 +271,6 @@
 
 .footerInfo i {
   margin-right: 10px;
-}
-
-.pageTitle {
-  width: 100%;
 }
 
 body {

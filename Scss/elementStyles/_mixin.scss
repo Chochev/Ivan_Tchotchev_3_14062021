@@ -1,9 +1,10 @@
 @mixin title {
     display: flex;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   width: 100%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
   justify-content: center;
   align-items: center;
   padding-top: 1.5rem;
