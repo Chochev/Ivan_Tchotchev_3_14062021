@@ -7,5 +7,6 @@ body{
 }
   .pageTitle{
         @include title;
+    border: 1px solid red;
     }
     
