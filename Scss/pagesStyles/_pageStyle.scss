@@ -1,12 +1,14 @@
-@import "./elementStyles/mixin";
-body{
-    background-color: yellowgreen;
+@import "../elementStyles/mixin";
+.pagesHeader{
+    display: flex;
+     }
+     .pagesHeader.backArrow{
+         align-items: center;
+         padding-top: 20px;
+     }
+.photo{
+    display: flex;
+    width: 100%;
+    height: 200px;
 }
-.headerBox{
-    display: flex
-}
-  .pageTitle{
-        @include title;
-    border: 1px solid red;
-    }
     
