@@ -33,10 +33,13 @@
       }
       .menuHeader{
         display: flex;
+       
         align-items: center;
         justify-content: space-between;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px 0px 15px;
+        padding: 0px 5px 0px 0px;
         font-family: Shrikhand;
+        
       }
       .heart{
         display: flex;
@@ -61,5 +64,10 @@
         transform: translate(100%);
       }
       
-
+      .menuCards{
+  
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
     
