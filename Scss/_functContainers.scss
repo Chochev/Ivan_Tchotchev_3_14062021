@@ -13,13 +13,7 @@
 .funcBoxes i{
     margin-right: 10px
 }
-.funcBox1 {
-  @include funcBox;
-}
-.funcBox2 {
-  @include funcBox;
-}
-.funcBox3 {
+.funcB {
   @include funcBox;
 }
 .funcBoxNum{
