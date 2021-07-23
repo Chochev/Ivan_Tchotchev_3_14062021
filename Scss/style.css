@@ -295,6 +295,8 @@ ________________________________________________________________ */
   object-fit: cover;
 }
 .menu{
+  display: flex;
+  flex-direction: column;
   background-color: #f6f6f6;
   border-radius: 20px 20px 0px 0px ;
   width: 100%;
@@ -304,10 +306,12 @@ ________________________________________________________________ */
 }
 .menuHeader{
   display: flex;
+ 
   align-items: center;
   justify-content: space-between;
   margin: 0px 20px 0px 20px;
   font-family: Shrikhand;
+  width: 100%;
 }
 .heart{
   display: flex;
@@ -330,6 +334,12 @@ object-fit: cover;
 } 
 .heartEmpty:hover .heartFull{
   transform: translate(100%);
+}
+.menuCards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 
