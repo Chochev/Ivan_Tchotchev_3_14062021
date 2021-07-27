@@ -316,8 +316,9 @@ ________________________________________________________________ */
 }
 .heart{
   display: flex;
+  opacity: 0;
 }
-.heartEmpty{
+/* .heartEmpty{
   height: 25px;
   width: 25px;
   position: relative;
@@ -325,8 +326,8 @@ object-fit: cover;
   opacity: 1; 
  z-index: 2; 
  transition: transform 1s;
-}
- .heartFull{
+} */
+ /* .heartFull{
   height: 25px;
     width: 25px;
     position: absolute;
@@ -335,7 +336,8 @@ object-fit: cover;
 } 
 .heartEmpty:hover .heartFull{
   transform: translate(100%);
-}
+} */
+
 .menuCards{
   display: flex;
   flex-direction: column;
@@ -347,12 +349,56 @@ object-fit: cover;
 }
 .cardElements{
   display: flex;
-  justify-items: flex-start;
+  width: 90%;
+  height: 6rem;
  padding: 10px;
  background-color: white;
  margin: 25px;
+ overflow: hidden;
  border-radius: 20px;
+ transition-duration: .5s;
 }
+.dishName{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.dishPrice{
+  display: flex;
+  width: 10%;
+  align-items: center;
+  justify-content: flex-end;
+}
+ /* .confirmation{
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .5s;
+}   */
+  .confirmation::before{
+opacity: 0;
+}  
+i.fas.fa-check-circle::before{
+opacity: 0;
+}
+.confirmation:hover{
+  display: flex;
+background-color: #99e2d0;
+align-items: center;
+justify-content: center;
+width: 20%;
+height: 6rem;
+/* margin: -1rem -5rem -1rem 1rem; */
+transition-duration: .5s;
+}
+i.fas.fa-check-circle::after{
+  color: #000000;
+  }
+
 
 .cmdBtn{
   display: flex;
@@ -363,6 +409,7 @@ object-fit: cover;
   background: linear-gradient(to top, #9356dc, #ff79da);
   color: white;
   border-style: none;
+  align-self: center;
 }
 
 
