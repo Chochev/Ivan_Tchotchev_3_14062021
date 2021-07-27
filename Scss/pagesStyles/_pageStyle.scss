@@ -44,26 +44,20 @@
       .heart{
         display: flex;
       }
-      .heartEmpty{
+      
+      .heartFull {
         height: 25px;
         width: 25px;
-        position: relative;
-      object-fit: cover;
-        opacity: 1; 
-       z-index: 2; 
-       transition: transform 1s;
+        position: absolute;
+        color: transparent;
       }
-       .heartFull{
-        height: 25px;
-          width: 25px;
-          position: absolute;
-         z-index: 1;
-         
-      } 
-      .heartEmpty:hover .heartFull{
-        transform: translate(100%);
+      .heartFull:hover {
+        height: 26px;
+        width: 26px;
+        position: absolute;
+        color: rebeccapurple;
+        transition-duration: 0.5s;
       }
-      
       .menuCards{
   
         display: flex;
@@ -72,6 +66,57 @@
       }
       .card{
         display: flex;
+      }
+      .cardElements {
+        display: flex;
+        width: 90%;
+        height: 6rem;
+        padding: 10px;
+        background-color: white;
+        margin: 25px;
+        overflow: hidden;
+        border-radius: 20px;
+        transition-duration: 0.5s;
+      }
+      .dishName {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+      }
+      .dishPrice {
+        display: flex;
+        width: 10%;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      /* .confirmation{
+        background-color: #99e2d0;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: .5s;
+      }   */
+      .confirmation::before {
+        opacity: 0;
+      }
+      i.fas.fa-check-circle::before {
+        opacity: 0;
+      }
+      .confirmation:hover {
+        display: flex;
+        background-color: #99e2d0;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 6rem;
+        /* margin: -1rem -5rem -1rem 1rem; */
+        transition-duration: 0.5s;
+      }
+      i.fas.fa-check-circle::after {
+        color: #000000;
       }
       .cmdBtn{
         @include  btnP;

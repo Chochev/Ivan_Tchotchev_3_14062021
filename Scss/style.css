@@ -2,7 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .mainTitle {
   display: -webkit-box;
@@ -14,11 +15,11 @@ body {
   position: -webkit-sticky;
   position: sticky;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   background-color: white;
@@ -35,13 +36,13 @@ body {
   width: 100%;
   background-color: #e5e5e5;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .mapLocation i {
@@ -60,8 +61,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .pubContainer {
@@ -70,15 +71,15 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #f6f6f6;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .bigBtn {
@@ -89,13 +90,20 @@ body {
   padding: 16px;
   font-size: 20px;
   border-radius: 30px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#9356dc),
+    to(#ff79da)
+  );
   background: linear-gradient(to top, #9356dc, #ff79da);
   color: white;
   border-style: none;
 }
 
-.pubContainer h1, p {
+.pubContainer h1,
+p {
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -106,15 +114,15 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #f6f6f6;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: white;
 }
 
@@ -124,15 +132,15 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #f6f6f6;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: white;
 }
 
@@ -147,12 +155,13 @@ body {
   width: 100%;
   background-color: #f6f6f6;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 1rem 1rem 1rem 0rem;
   padding-right: 1rem;
   border-radius: 1.3rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .funcBoxNum {
@@ -162,11 +171,11 @@ body {
   background: #9356dc;
   color: white;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 25px;
   height: 25px;
   border-radius: 100%;
@@ -186,8 +195,8 @@ body {
   background-color: #f6f6f6;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .restauCard {
@@ -198,7 +207,7 @@ body {
   width: 100%;
   height: 12rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -206,8 +215,11 @@ body {
   text-decoration: none;
 }
 
-.restaurants p, a:link, h3 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.restaurants p,
+a:link,
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -223,8 +235,8 @@ body {
   width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #000000;
   color: white;
   padding: 1rem;
@@ -241,8 +253,8 @@ body {
   text-decoration: none;
   color: white;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footerInfo i {
@@ -254,123 +266,116 @@ body {
 PAGES STYLES
 ________________________________________________________________ */
 
-.pagesHeader{
+.pagesHeader {
   display: flex;
   padding: 0 10% 0 10%;
-   }
-   .pageTitle {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-color: white;
-  }
-  
-  .pageTitle img {
-    display: block;
-  } 
-   .backArrow{
-    display: flex;
-      align-items: center;  
-      font-size: 1.3em;
-      color: #000000;
-      font-weight: bold;
-   }
+}
+.pageTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+}
+
+.pageTitle img {
+  display: block;
+}
+.backArrow {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  color: #000000;
+  font-weight: bold;
+}
 .pagePhoto {
   display: flex;
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
-.menu{
+.menu {
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
-  border-radius: 20px 20px 0px 0px ;
+  border-radius: 20px 20px 0px 0px;
   width: 100%;
   margin-top: -40px;
   z-index: 1;
   position: relative;
 }
-.menuHeader{
+.menuHeader {
   display: flex;
- 
+
   align-items: center;
   justify-content: space-between;
   margin: 0px 20px 0px 15px;
   padding: 0px 5px 0px 0px;
   font-family: Shrikhand;
-  
 }
-.heart{
+.heart {
   display: flex;
-  opacity: 0;
 }
-/* .heartEmpty{
+.heartFull {
   height: 25px;
   width: 25px;
-  position: relative;
-object-fit: cover;
-  opacity: 1; 
- z-index: 2; 
- transition: transform 1s;
-} */
- /* .heartFull{
-  height: 25px;
-    width: 25px;
-    position: absolute;
-   z-index: 1;
-   
-} 
-.heartEmpty:hover .heartFull{
-  transform: translate(100%);
-} */
-
-.menuCards{
+  position: absolute;
+  color: transparent;
+}
+.heartFull:hover {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+   color: #9356dc; 
+  /* background-color: linear-gradient(to top, #9356dc, #ff79da); */
+  transition-duration: 0.5s;
+}
+.menuCards {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.card{
+.card {
   display: flex;
   flex-direction: column;
 }
-.cardElements{
+.cardElements {
   display: flex;
   width: 90%;
-  height: 6rem;
- padding: 10px;
- background-color: white;
- margin: 25px;
- overflow: hidden;
- border-radius: 20px;
- transition-duration: .5s;
+  height: 5rem;
+  padding: 10px;
+  background-color: white;
+  margin: 25px;
+  overflow: hidden;
+  border-radius: 20px;
+  transition-duration: 0.5s;
 }
-.dishName{
+.dishName {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-self: center;
   width: 80%;
 }
-.dishPrice{
+.dishPrice {
   display: flex;
   width: 10%;
   align-items: center;
   justify-content: flex-end;
 }
- /* .confirmation{
+/* .confirmation{
   background-color: #99e2d0;
   margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
@@ -379,28 +384,27 @@ object-fit: cover;
   justify-content: center;
   transition-duration: .5s;
 }   */
-  .confirmation::before{
-opacity: 0;
-}  
-i.fas.fa-check-circle::before{
-opacity: 0;
+.confirmation::before {
+  opacity: 0;
 }
-.confirmation:hover{
+i.fas.fa-check-circle::before {
+  opacity: 0;
+}
+.confirmation:hover {
   display: flex;
-background-color: #99e2d0;
-align-items: center;
-justify-content: center;
-width: 20%;
-height: 6rem;
-/* margin: -1rem -5rem -1rem 1rem; */
-transition-duration: .5s;
+  background-color: #99e2d0;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 6rem;
+  /* margin: -1rem -5rem -1rem 1rem; */
+  transition-duration: 0.5s;
 }
-i.fas.fa-check-circle::after{
+i.fas.fa-check-circle::after {
   color: #000000;
-  }
+}
 
-
-.cmdBtn{
+.cmdBtn {
   display: flex;
   margin: 0.5rem 1.5rem 2rem 0px;
   padding: 16px;
@@ -411,6 +415,3 @@ i.fas.fa-check-circle::after{
   border-style: none;
   align-self: center;
 }
-
-
-
