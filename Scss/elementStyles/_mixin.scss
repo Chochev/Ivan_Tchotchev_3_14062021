@@ -22,6 +22,16 @@
   color: white;
   border-style: none;
 }
+@mixin btnP {
+  display: flex;
+  margin: 0.5rem 1.5rem 2rem 0px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 30px;
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  color: white;
+  border-style: none;
+}
 @mixin boxStyles {
   display: flex;
   flex-direction: column;

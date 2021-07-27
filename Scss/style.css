@@ -337,10 +337,33 @@ object-fit: cover;
   transform: translate(100%);
 }
 .menuCards{
-  
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.cardElements{
+  display: flex;
+  justify-items: flex-start;
+ padding: 10px;
+ background-color: white;
+ margin: 25px;
+ border-radius: 20px;
+}
+
+.cmdBtn{
+  display: flex;
+  margin: 0.5rem 1.5rem 2rem 0px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 30px;
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  color: white;
+  border-style: none;
+}
+
 
 

@@ -73,4 +73,7 @@
       .card{
         display: flex;
       }
+      .cmdBtn{
+        @include  btnP;
+      }
     
