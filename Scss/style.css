@@ -351,6 +351,9 @@ ________________________________________________________________ */
   display: flex;
   flex-direction: column;
 }
+.cardName{
+  margin-left: 25px;
+}
 .cardElements {
   display: flex;
   width: 90%;
