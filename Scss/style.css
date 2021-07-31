@@ -368,14 +368,17 @@ ________________________________________________________________ */
  .heart {
   height: 25px;
   width: 25px;
+
 }
   .heartEmpty{
    position: absolute;
+  
  }
  
 .heartFull {
   position: absolute;
     color: transparent; 
+  
 }
 .heartFull:hover {
      position: absolute;
@@ -387,9 +390,27 @@ ________________________________________________________________ */
   -moz-background-clip: text;
   background-clip: text;
   /* -webkit-text-fill-color:transparent; */
-    transition-duration: 0.8s;  
-  /* transition: all .8s ease-in-out; */
+    /* transition-duration: 0.8s;   */
+    animation: har 1.2s .3s ease-out ,transform .3s;
+   transition: all 1.8s ;   
    }
+   @keyframes har {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.5);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
    /* __________________MENU CARDS_______________*/
 .menuCards {
   display: flex;
@@ -414,22 +435,39 @@ ________________________________________________________________ */
   overflow: hidden;
   padding: 0px 0px 0px 10px;
   box-shadow: 5px 5px 5px rgba(184, 183, 183, 02);
-  /* transition-duration: 0.5s; */
- /* animation-name: apparition;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(1); */
-  /* @keyframes apparition {
-    from  {
-      transform: scale(0);
-      opacity: 0%;
-    }
-    {
-      transform: scale(1);
-      opacity: 100%;
-    }
-  } */
-}
+   animation: apparition .5s; 
+   animation: cardAnim 1.2s .3s ease-out both,transform .3s;
+  transition: all 1.5s; 
+  /* _____________________________________ */
+ }
+
+  /* ________________________________ */
+ 
+ @keyframes apparition {
+  0% {
+    transform: scale(0);
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+} 
+  @keyframes cardAnim { 
+  from {
+ transform: translateY(-50%);
+ opacity:0;
+  }
+ 
+  to {
+ transform:translateY(0);
+ opacity: 1;
+  }
+ } 
+
 .dishName {
   display: flex;
    flex-direction: column;
@@ -448,40 +486,53 @@ ________________________________________________________________ */
   padding-right: 10px;
 
 }
-.confirmation{
+ .confirmation{
   display: flex;
-  opacity: 0;
+ 
+  /* opacity: 0; */
 
-}
+} 
 /* __________________CHECK ANIMATION_______________*/
-.confirmation:hover {
-  display: flex;
-  opacity: 1;
-  background-color: #99e2d0;
+ .confirmation:hover {
+   display: flex;
+background-color: #99e2d0;
   align-items: center;
-  justify-content: center;
-   width: 100%;
-transition: all .8s ease;
+justify-content: center; 
+width: 100%; 
+animation: confirm 1.2s .1s linear reverse ,transform .1s;
+} 
+@keyframes confirm { 
+  from {
+ transform: translateX(0);
+ opacity:1;
+  }
+ 
+  to {
+ transform:translateX(100%);
+ opacity: 1;
+  }
+ }  
 
-}
-.fa-check-circle {
-   width: 100%;
-  height: 100%;
-  opacity: 0;
-  transform: rotate(180deg);
-}
-.fa-check-circle:hover {
-  opacity: 1;
+ .fa-check-circle {
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 25px;
-  /* height: 100% */
-  transition-duration: .7s;
-transform: rotate(0deg);
-
+align-self: center;
+   font-size: 25px;
+   transform: rotate(-180deg); 
+  transition: all 0.8s;
 }
+.fa-check-circle:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+ transform: rotate(0deg);  
+
+} 
 /* __________________BUTTON_______________*/
 .cmdBtn {
   display: flex;
