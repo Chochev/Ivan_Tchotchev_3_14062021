@@ -1,7 +1,7 @@
 @import "../elementStyles/mixin";
 .pagesHeader{
     display: flex;
-    padding: 0 10% 0 10%;
+    // padding: 0 10% 0 10%;
      }
     .pageTitle{
         @include title;
@@ -42,21 +42,25 @@
         
       }
       .heart{
-        display: flex;
-      }
-      
-      .heartFull {
         height: 25px;
-        width: 25px;
+  width: 25px;
+      }
+      .heartEmpty{
+        position: absolute;
+      }
+      .heartFull {
+      
         position: absolute;
         color: transparent;
       }
       .heartFull:hover {
-        height: 26px;
-        width: 26px;
         position: absolute;
-        color: rebeccapurple;
-        transition-duration: 0.5s;
+        background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);  
+        font-weight: 900;
+       background-clip: text;
+       /* -webkit-text-fill-color:transparent; */
+         transition-duration: 0.8s;  
+       /* transition: all .8s ease-in-out; */
       }
       .menuCards{
   

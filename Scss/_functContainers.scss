@@ -3,11 +3,13 @@
 .functionalityContainer {
   @include boxStyles; 
     background-color: white;
+    width: 100%;
   
 }
 .funcBoxes {
   @include boxStyles; 
     background-color: white;
+    width: 100%;
   
 }
 .funcBoxes i{
