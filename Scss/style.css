@@ -6,6 +6,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+/* __________________TITLE _______________*/
 .mainTitle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +30,7 @@ body {
 .mainTitle img {
   display: block;
 }
-
+/* __________________LOCATION _______________*/
 .mapLocation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,7 +56,7 @@ body {
   font-weight: 700;
   font-size: 1.35em;
 }
-
+/* __________________mainCONTAINER _______________*/
 .mainContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,11 +66,12 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-
+/* __________________pubCONTAINER _______________*/
 .pubContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0px 0px 0px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -83,7 +85,7 @@ body {
   justify-content: center;
  
 }
-
+/* __________________BUTTON _______________*/
 .bigBtn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,14 +105,16 @@ body {
   color: white;
   border-style: none;
 }
-
+.bigBtn:hover{
+  box-shadow:5px 5px 5px rgba(184, 183, 183, 02);
+}
 .pubContainer h1
 p {
   padding-right: 10px;
   padding-left: 10px;
  
 }
-
+/* __________________FONCTIONNEMENT _______________*/
 .functionalityContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,18 +127,20 @@ p {
    background-color: #f6f6f6;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
    background-color: white;
 }
-
+.funcTitle{
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+}
 .funcBoxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  margin: 0rem 0rem 0rem 1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -142,7 +148,6 @@ p {
    background-color: #f6f6f6;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -157,18 +162,24 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+
+  /* margin: 0rem 1rem 0rem 1rem; */
+  font-size: 18px;
   background-color: #f6f6f6;
+  box-shadow:2px 2px 2px rgba(184, 183, 183, 02);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   margin: 1rem 1rem 1rem 0rem;
-  padding-right: 1rem;
+  padding: 10px 0rem 10px 0px;
   border-radius: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
+.funcB:hover{
+  background-color: #e4d5f6;
+  box-shadow:4px 4px 4px rgba(184, 183, 183, 02);
+} 
 .funcBoxNum {
 
   display: -webkit-box;
@@ -193,7 +204,7 @@ p {
   font-size: 1em;
   font-weight: 500;
 }
-
+/* __________________RESTAURANTS _______________*/
 .restaurants {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,8 +217,11 @@ p {
 }
 
 .restauCard {
-  padding: 0px 1rem 1rem 1rem;
+
   background-color: white;
+  margin: 0px 1rem 1rem 1rem;
+  border-radius: 20px;
+  box-shadow:5px 5px 5px rgba(184, 183, 183, 02);
 }
 
 .restauCard img {
@@ -239,10 +253,12 @@ h3 {
 .restaurants h2 {
   margin-left: 2rem;
 }
+/* __________________HEARTmainPAGE_______________*/
 .cardInfo.heart{
   justify-content: end;
 
 }
+/* __________________FOOTER_______________*/
 .mainFooter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,18 +299,22 @@ ________________________________________________________________ */
 
 .pagesHeader {
   display: flex;
-  padding: 0 20px 0 20px;
-
+  padding: 0px 20px 0px 20px;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: white;
 }
+/* __________________TITLE_______________*/
 .pageTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 0;
   width: 100%;
-  height: 100%;
-  position: -webkit-sticky;
-  position: sticky;
+  height: 100%; 
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -303,11 +323,12 @@ ________________________________________________________________ */
   align-items: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: white;
+  
 }
 
 .pageTitle img {
-  display: flex;
+  display: block;
+  /* padding-right: 2rem; */
 }
 .backArrow {
   display: flex;
@@ -322,6 +343,7 @@ ________________________________________________________________ */
   height: 250px;
   object-fit: cover;
 }
+/* __________________MENU______________*/
 .menu {
   display: flex;
   flex-direction: column;
@@ -332,15 +354,17 @@ ________________________________________________________________ */
   z-index: 1;
   position: relative;
 }
+/* _________________MENU HEADER_______________*/
 .menuHeader {
   display: flex;
 
   align-items: center;
   justify-content: space-between;
-  margin: 0px 20px 0px 15px;
+  margin: 0px 0px 0px 15px;
   padding: 0px 30px 0px 0px;
   font-family: Shrikhand;
 }
+/* __________________HEART______________*/
  .heart {
   height: 25px;
   width: 25px;
@@ -348,9 +372,7 @@ ________________________________________________________________ */
   .heartEmpty{
    position: absolute;
  }
- /* .heartEmpty:hover{
- color: transparent;
-} */
+ 
 .heartFull {
   position: absolute;
     color: transparent; 
@@ -368,6 +390,7 @@ ________________________________________________________________ */
     transition-duration: 0.8s;  
   /* transition: all .8s ease-in-out; */
    }
+   /* __________________MENU CARDS_______________*/
 .menuCards {
   display: flex;
   flex-direction: column;
@@ -430,6 +453,7 @@ ________________________________________________________________ */
   opacity: 0;
 
 }
+/* __________________CHECK ANIMATION_______________*/
 .confirmation:hover {
   display: flex;
   opacity: 1;
@@ -458,6 +482,7 @@ transition: all .8s ease;
 transform: rotate(0deg);
 
 }
+/* __________________BUTTON_______________*/
 .cmdBtn {
   display: flex;
   margin: 1.5rem 1.5rem 1.5rem 0px;
@@ -469,3 +494,9 @@ transform: rotate(0deg);
   border-style: none;
   align-self: center;
 }
+
+
+/* ________________________________________________________________
+
+RESPONSIVE MENU 600+ PX
+________________________________________________________________ */

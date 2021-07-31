@@ -5,6 +5,7 @@
 }
 .pubContainer {
   @include boxStyles;
+  padding: 0px 0px 0px 20px;
 }
 .bigBtn {
   @include btn;

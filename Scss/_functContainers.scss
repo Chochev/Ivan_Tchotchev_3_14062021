@@ -6,17 +6,27 @@
     width: 100%;
   
 }
+.funcTitle{
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+}
 .funcBoxes {
   @include boxStyles; 
     background-color: white;
-    width: 100%;
-  
+    margin: 0rem 0rem 0rem 1rem;
 }
 .funcBoxes i{
     margin-right: 10px
 }
 .funcB {
   @include funcBox;
+  box-shadow:2px 2px 2px rgba(184, 183, 183, 02);
+  padding: 10px 1rem 10px 0px;
+  font-size: 18px;
+}
+.funcB:hover{
+  background-color: #e4d5f6;
+  box-shadow:4px 4px 4px rgba(184, 183, 183, 02);
 }
 .funcBoxNum{
     display: flex;
