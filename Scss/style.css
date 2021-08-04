@@ -36,8 +36,9 @@ _______________________________________________ */
   display: flex;
   justify-content: center;
   align-items: center;
-  border:10px solid rgb(240, 226, 226);
-  border-top:10px solid blue;
+   border:10px solid rgb(240, 226, 226 0.7); 
+ 
+   border-top:10px solid #9356dc;
   border-bottom:10px solid gray;
   border-radius: 50%;
   width: 200px;
@@ -48,7 +49,6 @@ _______________________________________________ */
   -webkit-animation: turn 3s linear infinite;
   -o-animation:turn 3s linear infinite ;
   animation: turn 3s linear infinite;
-  
 }
 .textLoader{
   display: flex;
@@ -61,7 +61,7 @@ _______________________________________________ */
 
 }
 .text1{
- color: lawngreen;
+ /* color: lawngreen; */
  
  /* -webkit-animation: turnText 3s linear infinite;
   -o-animation:turn 3s linear infinite ; */
@@ -474,7 +474,9 @@ ________________________________________________________________ */
   width: 25px; 
  
 }
-
+.heart:hover .heartEmpty{
+  opacity: 0;
+}
 .heartEmpty {
   position: absolute;
   color: #000000;
@@ -612,9 +614,9 @@ ________________________________________________________________ */
   color: white;
   font-size: 25px;
   transform: rotate(0deg);
-  transition-duration: 0.8s;
+  transition-duration: 2s;
 }
-.fa-check-circle:hover {
+.cardElements:hover .fa-check-circle {
   color: white;
   font-size: 25px;
   transform: rotate(360deg);
@@ -645,3 +647,6 @@ ________________________________________________________________ */
 
 RESPONSIVE MENU 600+ PX
 ________________________________________________________________ */
+@media (min-width:600px){
+
+}
