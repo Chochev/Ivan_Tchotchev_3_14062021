@@ -432,7 +432,7 @@ _______________________________________________ */
 }
 .restauCard {
   background-color: white;
-  margin: 0px 2rem 1rem 2rem; 
+  margin: 0px 2rem 3rem 2rem; 
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(184, 183, 183, 02);
   position: relative;
@@ -496,7 +496,8 @@ h3 {
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: #353535; 
-  padding: 0px 0px 20px 20px;
+  padding: 0px ;
+  line-height: 15pt;
 }
 
 .footerLogo {
@@ -505,8 +506,15 @@ h3 {
   font-size: 15px;
   letter-spacing: 0.5px;
    color: white; 
+  margin-left: 2.7rem;
 }
-
+.footerInfo{
+ list-style: none;
+ text-decoration: none;
+}
+.footerInfo, i{
+  font-size: 12px;
+}
 .footerInfo a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -794,21 +802,28 @@ ________________________________________________________________ */
 RESPONSIVE MENU 
 ________________________________________________________________ */
 @media (min-width:400px){
-  .mainFooter {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    background-color: #353535; 
-    padding: 0px 0px 20px 20px;
-    align-items: center;
-  }
+  
   .cmdBtn{
     margin: 1.5rem 1.5rem 1.5rem 4rem;
   }
+  /* .mainFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footerLogo{
+    margin-left: 6rem;
+    font-size: 20px;
+  }
+  .footerInfo{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 20px;
+  }
+  .footerInfo, a{
+  margin-right: 8rem;
+  } */
 }
    @media (min-width:900px){
 .restoCards{
@@ -817,7 +832,19 @@ ________________________________________________________________ */
   column-gap: 2rem;
   row-gap: 2rem;
 }
-
+.funcTitle{
+  align-self: center;
+} 
+.funcBoxes{
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  /* align-self: center;
+  width: 400px; */
+}
+.funcB{
+  width: 300px;
+}
 /* ____________________________________
 
 --------------PAGES---------------
