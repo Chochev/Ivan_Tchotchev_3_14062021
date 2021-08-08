@@ -200,6 +200,7 @@ _______________________________________________ */
   height: 100%;
   position: -webkit-sticky;
   position: sticky;
+  z-index: 1;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -270,18 +271,20 @@ _______________________________________________ */
 }
 .pubContainer, h1{
   margin-right: 1px;
+  padding-left: 1rem;
 }
 .pubContainer p{
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   font-weight: 500;
   opacity: 0.5;
+  padding-left: 1rem;
 }
 /* __________________BUTTON _______________*/
 .bigBtn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 1.5rem 1.5rem 2rem 0px;
+  margin: 1.5rem 1.5rem 2rem 1rem;
   padding: 16px;
   font-size: 20px;
   border-radius: 30px;
@@ -299,6 +302,7 @@ _______________________________________________ */
 .bigBtn:hover {
   box-shadow: 5px 5px 5px rgba(184, 183, 183, 02);
   transform: scale(1.01);
+  cursor: pointer;
 }
 .pubContainer h1 p {
   padding-right: 10px;
@@ -309,7 +313,7 @@ _______________________________________________ */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  margin: 0px 20px 0px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -324,13 +328,13 @@ _______________________________________________ */
 }
 .funcTitle {
   display: flex;
-  margin: 0.5rem 0rem 0rem 1rem;
+  margin: 2rem 0rem 0.5rem 1rem;
 }
 .funcBoxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0rem 0rem 0rem 1rem;
+  margin: 0rem 0.3rem 0rem 1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -370,6 +374,10 @@ _______________________________________________ */
   background-color: #e4d5f6;
   box-shadow: 4px 4px 4px rgba(184, 183, 183, 02);
   transform: scale(1.01);
+  cursor: pointer;
+}
+.funcB:hover i{
+  color: #9356dc;
 }
 .funcBoxNum {
   display: -webkit-box;
@@ -404,11 +412,27 @@ _______________________________________________ */
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
 }
-
+.restaurants h2 {
+  margin-left: 2rem;
+  margin-top: 3rem;
+  
+}
+.restoCards{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
 .restauCard {
   background-color: white;
-  margin: 0px 1rem 1rem 1rem;
+  margin: 0px 2rem 1rem 2rem; 
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(184, 183, 183, 02);
   position: relative;
@@ -457,9 +481,7 @@ h3 {
   color: black;
 }
 
-.restaurants h2 {
-  margin-left: 2rem;
-}
+
 /* __________________HEARTmainPAGE_______________*/
 .cardInfo.heart {
   justify-content: end;
@@ -623,7 +645,7 @@ ________________________________________________________________ */
   background-clip: text;
   animation: heartAnim 1.2s 0.3s ease-out, transform 0.3s;
   transition: all 1.8s;
-  
+  cursor: pointer;
 }
 @keyframes heartAnim {
   0% {
@@ -681,8 +703,7 @@ ________________________________________________________________ */
   
 }
 .cardElements:hover {
-  padding-right: 5rem;
-  animation-fill-mode: forwards;
+   padding-right: 5rem; 
 }
 
 /* _____________________________________ */
@@ -733,15 +754,16 @@ ________________________________________________________________ */
   /* transition-duration: .5s */
 }
 .fa-check-circle {
-  color: white;
+   color: white; 
   font-size: 25px;
-  transform: rotate(0deg);
-  transition-duration: 2s;
+  transform: rotate(180deg);
+  transition-duration: 1s;
 }
 .cardElements:hover .fa-check-circle {
   color: white;
   font-size: 25px;
   transform: rotate(360deg);
+  
 }
 .fa-check-circle:active {
   color: white;
@@ -752,7 +774,7 @@ ________________________________________________________________ */
 /* __________________BUTTON_______________*/
 .cmdBtn {
   display: flex;
-  margin: 1.5rem 1.5rem 1.5rem 0px;
+  margin: 1.5rem 1.5rem 1.5rem 2rem;
   padding: 16px;
   font-size: 20px;
   border-radius: 30px;
@@ -764,12 +786,53 @@ ________________________________________________________________ */
 .cmdBtn:hover {
   box-shadow: 5px 5px 5px rgba(184, 183, 183, 02);
   transform: scale(1.01);
+  cursor: pointer;
 }
 
 /* ________________________________________________________________
 
-RESPONSIVE MENU 600+ PX
+RESPONSIVE MENU 
 ________________________________________________________________ */
-@media (min-width:600px){
-
+@media (min-width:400px){
+  .mainFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #353535; 
+    padding: 0px 0px 20px 20px;
+    align-items: center;
+  }
+  .cmdBtn{
+    margin: 1.5rem 1.5rem 1.5rem 4rem;
+  }
 }
+   @media (min-width:900px){
+.restoCards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+/* ____________________________________
+
+--------------PAGES---------------
+____________________________________ */
+ 
+.menuCards {
+ 
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+}    
