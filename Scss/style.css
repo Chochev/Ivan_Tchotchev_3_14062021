@@ -36,7 +36,7 @@ _______________________________________________ */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 10px solid rgb(240, 226, 226 0.7);
+  border: 10px solid rgb(240, 226, 226, 0.7);
 
   border-top: 10px solid #9356dc;
   border-bottom: 10px solid #353535;
@@ -641,6 +641,9 @@ ________________________________________________________________ */
 .heartFull {
   position: absolute;
   color: transparent;
+   /* -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;   */
 }
 .heartFull::after {
   border-style: none;
@@ -651,9 +654,6 @@ ________________________________________________________________ */
   background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
   background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
   font-weight: 900;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
   animation: heartAnim 1.2s 0.3s ease-out, transform 0.3s;
   transition: all 1.8s;
   cursor: pointer;
