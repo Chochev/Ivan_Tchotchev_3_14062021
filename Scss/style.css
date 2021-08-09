@@ -18,7 +18,7 @@ _______________________________________________ */
   width: 100%;
   height: 100%;
   background: #fff;
-  opacity: 0.7;
+  opacity: 0.9;
   display: -webkit-box;
   display: -ms-flexbox;
   -webkit-box-pack: center;
@@ -27,7 +27,7 @@ _______________________________________________ */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  visibility: hidden;
+  visibility: hidden; 
   -webkit-transition: visibility 3s;
   -o-transition: visibility 3s;
   transition: visibility 3s;
@@ -36,8 +36,6 @@ _______________________________________________ */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 10px solid rgb(240, 226 , 226,  );
-
   border-top: 10px solid #9356dc;
   border-bottom: 10px solid #353535;
   border-radius: 50%;
@@ -51,7 +49,7 @@ _______________________________________________ */
   bottom: 0;
   -webkit-animation: turn 3s linear infinite;
   -o-animation: turn 3s linear infinite;
-  animation: turn 3s linear infinite;
+  animation: turn 3s linear infinite; 
 }
 .textLoader {
   display: flex;
@@ -653,7 +651,7 @@ ________________________________________________________________ */
   background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
   background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
   font-weight: 900;
-   background-clip: text;
+   background-clip: border-box;
   -webkit-background-clip: text;
   -moz-background-clip: text; 
   animation: heartAnim 1.2s 0.3s ease-out, transform 0.3s;
