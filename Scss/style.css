@@ -593,6 +593,9 @@ ________________________________________________________________ */
   color: #353535;
   transform: scale(1.1);
 }
+.backArrow i{
+  font-size: 20px;
+}
 .pagePhoto {
   display: flex;
   width: 100%;
